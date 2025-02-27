@@ -1,0 +1,11 @@
+'''Bạn đang đặt initial_target_dir là [E:\OK]NetSalary, điều này không hợp lệ.
+Nếu bạn muốn cài vào C:\Program Files (x86)\NetSalary, hãy dùng:
+python
+Sao chép
+Chỉnh sửa
+"initial_target_dir": r"[ProgramFilesFolder]NetSalary"
+Nếu muốn cài vào E:\OK\NetSalary, hãy dùng:
+python
+Sao chép
+Chỉnh sửa
+#"initial_target_dir": r"E:\OK\NetSalary"'''
